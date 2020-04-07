@@ -7,7 +7,7 @@ run_with_ngrok(app)
 
 @app.route("/")
 def home():
-    return render_template("Osnova.html")
+    return render_template("index.html")
 
 
 if __name__ == "__main__":
